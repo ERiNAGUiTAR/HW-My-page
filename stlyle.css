@@ -14,7 +14,7 @@ body{
     display: inline-block;
     margin-bottom: 5px;
 }
-.header{
+.w_inner{
     width: 1200px;
     margin: 0 auto;
 }
@@ -38,5 +38,30 @@ body{
 }
 .header_img img{
     display: inline-block;
+}
+.container_service h2 { 
 
 }
+.container_service h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.container_service.service img {
+    margin-bottom: 20px;
+}
+.container_service.service.ttl {
+    font-weight: bold;
+    font-size: 18px;
+}
+.container_service.service.introduction {
+    margin-bottom: 20px;
+}
+.container_service.service a{
+    background: palevioletred;
+    color: white;
+    padding: 15px 20px 12px;
+}
+
+
