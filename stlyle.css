@@ -39,29 +39,47 @@ body{
 .header_img img{
     display: inline-block;
 }
-.container_service h2 { 
-
+.container_service .service_block{
+    display: flex; 
+    justify-content: space-between;
 }
+.container_service .service{
+    width: 380px;
+    text-align: center;
+
+
 .container_service h2 {
     text-align: center;
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 20px;
 }
-.container_service.service img {
+.container_service .service img {
     margin-bottom: 20px;
 }
-.container_service.service.ttl {
+.container_service .service .ttl {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
 }
-.container_service.service.introduction {
+.container_service .service .introduction {
     margin-bottom: 20px;
 }
-.container_service.service a{
+.container_service .service a{
     background: palevioletred;
-    color: white;
+    color: #fff;
     padding: 15px 20px 12px;
 }
-
+.footer{
+    margin-top: 40px;
+}
+.pp_link {
+    text-align: right;
+}
+.copy{
+    text-align: center;
+    background: pink;
+    color: #fff;
+    font-size: 12px;
+    padding: 7px 0 3px;
+}
 
